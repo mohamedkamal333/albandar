@@ -1,0 +1,62 @@
+.slider {
+    width: 100%;
+    height: calc(100vh - 192px);
+    overflow: hidden;
+    div {
+        width: 100%;
+        height: 100%;
+        .item {
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .slick-next {
+            width: 100px;
+            height: 100%;
+            transition:  all .2s ease-in-out;
+
+            &::before {
+                font-size: 35px;
+            }
+        }
+
+        .slick-prev {
+            width: 100px;
+            height: 100%;
+            z-index: 2;
+            transition:  all .2s ease-in-out;
+
+            &::before {
+                font-size: 35px;
+            }
+        }
+
+    }
+}
+
+
+
+
+// responsive
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+    .slider {
+        div {
+            .item {
+                img {
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+ }
+

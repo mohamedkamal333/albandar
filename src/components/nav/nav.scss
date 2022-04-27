@@ -1,0 +1,214 @@
+@import "../variables/var.scss";
+
+.par-nav-top {
+    color: $blackColor;
+
+    .lan-an-loca {
+        padding: 1rem 0;
+        .pa-la {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .get-loca {
+                a {
+                    i {
+                        color: $greenColor;
+                    }
+                    
+                    span {
+                        padding: 0 5px;
+                        font-size: 12px;
+                        color: $blackColor;
+                        &:hover {
+                            color: $greenColor
+                        }
+                    }
+                    text-decoration: none;
+                    transition: all .2s ease-in-out;
+                    &:hover {
+                        opacity: .8;
+                    }
+                }
+            }
+
+            .social {
+                .icons {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a {
+                        text-decoration: none;
+                        div {
+                            margin: 0 3px;
+                            padding: 10px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            cursor: pointer;
+                            color: white;
+                            font-size: 14px;
+                            border-radius: 4px;
+                            transition: all .2s ease-in-out;
+                            -webkit-transition: all .2s ease-in-out;
+                            -moz-transition: all .2s ease-in-out;
+                            -ms-transition: all .2s ease-in-out;
+                            -o-transition: all .2s ease-in-out;
+                            box-shadow: 0 0 5px rgba(14, 14, 14, 0.603);
+                            &:hover {
+                                opacity: .7;
+                            }
+                        }
+                    }
+            
+                    .insta {
+            
+                        background-color: #f46f30;
+                    }
+            
+                    .twitter {
+            
+                        background-color: #1da1f2;
+                    }
+                    
+                    .facebook {
+
+                        background-color: #3b5998;
+                    }
+
+                }
+            }
+        }
+    }
+
+.navbar {
+
+    .navbar-brand {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .navbar-nav {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: end;
+
+        .nav-item {
+            .nav-link {
+                color: $blackColor;
+                text-transform: capitalize;
+                padding: 0 1rem;
+                font-size: 18px;
+                &:hover {
+                    color: $greenColor;
+                }
+            }
+        }
+    }
+
+
+
+    .dropdown-menu {
+        li {
+
+            .dropdown-item {
+               display: flex;
+        
+            }
+        }
+    }
+    
+}
+
+}
+
+
+
+
+
+
+// responsive
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+    // navbar
+
+    .get-loca {
+        display: none;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .border-add {
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .par-nav-top {
+        .navbar {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        padding: .5rem 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    // navbar
+
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .border-add {
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .par-nav-top {
+        .navbar {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        padding: .5rem 1rem;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    // navbar
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .border-add {
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .par-nav-top {
+        .navbar {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        padding: .5rem 1rem;
+                    }
+                }
+            }
+        }
+    }
+ }

@@ -1,0 +1,112 @@
+{
+    
+    "contact-addr": "Al Bandar Lounge - Contact",
+    "gallary-addr": "Al Bandar Lounge - gallary",
+    "book-addr": "Al Bandar Lounge - Book now",
+    "title": "Al Bandar Lounge ",
+    "lang": "language",
+    "navbarr": {
+        "home": "home",
+        "gallary": "gallery",
+        "contact": "contact us",
+        "locat": "Barka Wilayat - Numan District"
+    },
+    "bookBtn": "book now",
+    "aboutUs": {
+        "head": "about us",
+        "title": "welcome to Al Bandar Lounge (VIP)",
+        "text": " To make your vacation special, Al Bandar Lounge (VIP) offers you everything that is beautiful to spend the most beautiful trips, vacations, parties, family events and others. The rest area is 2000 meters with a beautiful landscape characterized by calm and comfortable lighting. The rest is in the middle of a farm of 70,000 square meters. The rest is quiet, away from the noise and residential neighborhoods, which gives it privacy and freedom to enjoy a pleasant atmosphere with the family."
+    },
+
+    "features": {
+        
+        "title": "features",
+        "lounge_facilities": {
+            "title": "lounge facilities",
+            "feat1": "A spacious Majlis equipped with a 75-inch screen with audio accessories.",
+            "feat2": "A large VIP royal majlis with a 55-inch screen.",
+            "feat3": "A private bedroom.",
+            "feat4": "A bedroom with several beds.",
+            "feat5": "A stage platform overlooking the swimming pool and the fountain, equipped with lighting, acoustics, a display screen and Netflix service (suitable for occasions and parties of all kinds).",
+            "feat6": "Classy popular sessions.",
+            "feat7": "Romantic elevated sitting overlooking the farm and the lounge.",
+            "feat8": "Multiple side sessions.",
+            "feat9": "Waterfall.",
+            "feat10": "A large kitchen equipped with basic utensils.",
+            "feat11": " 5 toilets for men and women."
+        },
+
+        "basins": {
+            "title": "basins",
+            "feat1": "An outdoor swimming pool for men and children with a safety fence that prevents children from entering (photos are attached).",
+            "feat2": "A private indoor air-conditioned swimming pool for women with a private bathroom."
+        },
+
+        "entertainment": {
+            "title": "entertainment",
+            "feat1": "football stadium",
+            "feat2": "Airplane stadium",
+            "feat3": "Pool table",
+            "feat4": "tennis table",
+            "feat5": "Football table",
+            "feat6": "Electric table tennis",
+            "feat7": "A place for children's games",
+            "feat8": "Children's motorbike (additional charge)."
+        },
+
+        "grills_attachments" : {
+            "title": "Grills Attachments",
+            "feat1": "A place for grills (BBQ)",
+            "feat2": "Omani barbecue pit",
+            "feat3": "Slaughterhouse for slaughtering sheep"
+        },
+
+        "wifi": "Wi-Fi is also available in the lounge",
+
+        "prices": {
+            "title": "the prices",
+            "feat1": "From Sunday to Thursday 115 riyals without overnight stay (with accommodation 140 riyals).",
+            "feat2": "On official holidays from 9 am to 9 pm 130 riyals",
+            "feat3": "Friday overnight 170 riyals",
+            "feat4": "Saturday 130 from 9 am to 9 pm.",
+            "feat5": "And it is possible to book a break for the whole day Saturd",
+            "security": "Security deposit of 50 riyals, refundable upon checkout",
+            "note1": "* Note (prices change according to seasons) (and on official holidays, the days are calculated with the same value as Friday)",
+            "note2": "* Maximum families 3 families"
+        }
+    
+    },
+
+    "footer": {
+        "text": "Copyright © Al Bandar Lounge 2022 All rights reserved"
+    },
+
+    "contact": {
+        "title": "your question ?",
+        "place-name": "your name...",
+        "place-email": "email...",
+        "place-message": "your message...",
+        "btn-message": "send message",
+        "contact-us-text": "contact us"
+    },
+
+    "bookPage": {
+        "reseve": "Reserve Now",
+        "rates": "The Prices",
+        "one": "From Sunday to Thursday 115 riyals without overnight stay (with accommodation 140 riyals).",
+        "tow": "On official holidays from 9 am to 9 pm 130 riyals",
+        "three": "Friday overnight 170 riyals",
+        "four": "Saturday 130 from 9 am to 9 pm.",
+        "details-title": "Fill Your Details Here",
+        "detal-name": "full name",
+        "detal-email": "email",
+        "detal-phone": "phone number",
+        "detal-country": "country",
+        "detal-check-in": "Check In",
+        "detal-check-out": "Check out",
+        "detal-note": "Note : (prices change according to seasons) (in official holidays, the days are calculated with the same value as Friday)",
+        "btn-book-now": "book now"
+    }
+
+
+}
