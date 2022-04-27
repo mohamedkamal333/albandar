@@ -3,24 +3,17 @@ import Slider from "react-slick";
 
 // Add Images
 
-import add1 from "./img/add1.jpg";
-import add2 from "./img/add2.jpg";
-import add3 from "./img/add3.jpg";
-import add4 from "./img/add4.jpg";
-import add5 from "./img/add5.jpg";
-import add6 from "./img/add6.jpg";
-import add7 from "./img/add7.jpg";
-import add8 from "./img/add8.jpg";
-import add9 from "./img/add9.jpg";
-import add10 from "./img/add10.jpg";
-import add11 from "./img/add11.jpg";
-import add12 from "./img/add12.jpg";
-import add13 from "./img/add13.jpg";
-import add14 from "./img/add14.jpg";
-import add15 from "./img/add15.jpg";
-import add16 from "./img/add16.jpg";
-import add17 from "./img/add17.jpg";
-import add18 from "./img/add18.jpg";
+import add1 from "./img/add1.jpeg";
+import add2 from "./img/add2.jpeg";
+import add3 from "./img/add3.jpeg";
+import add4 from "./img/add4.jpeg";
+import add5 from "./img/add5.jpeg";
+import add6 from "./img/add6.jpeg";
+import add7 from "./img/add7.jpeg";
+import add8 from "./img/add8.jpeg";
+import add9 from "./img/add9.jpeg";
+import add10 from "./img/add10.jpeg";
+
 
 
 import "./gallar_slider.scss";
@@ -98,31 +91,6 @@ class GallarySlide extends Component {
               <div>
                 <img src={add10} alt="add10"/>
               </div>
-              <div>
-                <img src={add11} alt="add11"/>
-              </div>
-              <div>
-                <img src={add12} alt="add12"/>
-              </div>
-              <div>
-                <img src={add13} alt="add13"/>
-              </div>
-              <div>
-                <img src={add14} alt="add14"/>
-              </div>
-              <div>
-                <img src={add15} alt="add15"/>
-              </div>
-              <div>
-                <img src={add16} alt="add16"/>
-              </div>
-              <div>
-                <img src={add17} alt="add17"/>
-              </div>
-              <div>
-                <img src={add18} alt="add18"/>
-              </div>
-
             </Slider>
           </div>
                 </div>

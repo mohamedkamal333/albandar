@@ -4,12 +4,16 @@ import Slider from "react-slick";
 
 // Import Images
 
-import new1 from "./images/new1.jpg";
-import new2 from "./images/new2.jpg";
-import new3 from "./images/new3.jpg";
-import new4 from "./images/new4.jpg";
-import new5 from "./images/new5.jpg";
-import new6 from "./images/new6.jpg";
+import new1 from "./images/new1.jpeg";
+import new2 from "./images/new2.jpeg";
+import new3 from "./images/new3.jpeg";
+import new4 from "./images/new4.jpeg";
+import new5 from "./images/new5.jpeg";
+import new6 from "./images/new6.jpeg";
+import new7 from "./images/new7.jpeg";
+import new8 from "./images/new8.jpeg";
+import new9 from "./images/new9.jpeg";
+import new10 from "./images/new10.jpeg";
 
 import "./slider.scss";
 
@@ -19,7 +23,7 @@ class SliderIm extends Component {
       var settings = {
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
@@ -29,7 +33,7 @@ class SliderIm extends Component {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
               infinite: true,
             }
@@ -72,6 +76,18 @@ class SliderIm extends Component {
           </div>
           <div className="item">
           <img src={new6} alt="not available"/>
+          </div>
+          <div className="item">
+          <img src={new7} alt="not available"/>
+          </div>
+          <div className="item">
+          <img src={new8} alt="not available"/>
+          </div>
+          <div className="item">
+          <img src={new9} alt="not available"/>
+          </div>
+          <div className="item">
+          <img src={new10} alt="not available"/>
           </div>
         </Slider>
       </div>
